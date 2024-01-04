@@ -1,0 +1,20 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* fonts */
+@font-face {
+  /* font-family: "Quicksand"; */
+  /* font-family: Silkscreen;
+  href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" */
+  /* src: url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap'); */
+  /* src: url("/Quicksand-Light.woff2") format("woff2"),
+    url("/Quicksand-Light.woff") format("woff"); */
+  /* font-weight: 300; */
+  /* font-style: normal; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

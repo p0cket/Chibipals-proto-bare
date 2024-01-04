@@ -1,0 +1,39 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "parser": "@babel/eslint-parser" // Lets hope this helps
+  },
+  "rules": {  
+     "import/export": "off",
+     "import/first": "off",
+    "react/prop-types": "off", //fix props validation later
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-vars": "off",
+    "react/jsx-uses-react": "off",
+    "no-console": "off",
+    "strict": ["error", "global"],
+    "curly": "warn",
+    // "curly": ["warn", "multi-line", "consistent"],
+    "semi": ["warn", "never"],
+    "indent": "off",
+    "comma-dangle": ["warn", "always-multiline"],
+ 
+    "space-before-function-paren": "off",
+    "no-unused-vars": "off"
+
+    // if you want to remove prop validation:
+    // "react/prop-types": "off"
+  }
+}

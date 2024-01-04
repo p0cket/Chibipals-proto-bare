@@ -1,0 +1,57 @@
+.sceneContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.battleUIcontainer {
+  max-width: 800px;
+}
+.battleUI {
+  font-family: Silkscreen;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+.battleTopLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #e6ecc3;
+  flex-grow: 1;
+}
+.battleTopRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 2px; */
+  margin: 0px 0px 0px 2px;
+  flex-grow: 2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.battleStats {
+  display: flex;
+  /* flex-direction: column; */
+  /* padding: 0px 0px; */
+  /* margin: 4px; */
+  /* width: 90%; */
+  background-color: #5a7d2a;
+  color: white;
+}
+.battleDialog {
+  background-color: #5a7d2a;
+  /* max-width: 800px; */
+  /* margin: 0px 30px; */
+}
+.simpleButton {
+  font-family: Silkscreen;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
